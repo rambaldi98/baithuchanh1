@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dangky</title>
+    </head>
+    <body>
+        <form action="dangKyHocVien.html" method="GET">
+            <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+
+            <label for="hoten">Họ Và Tên</label>
+            <input type="text"name="hoten"> <br/><br/>
+
+            <label for="date">Ngày sinh</label>
+            <input type="text"name="date"> <br/><br/>
+            
+            <label for="gioitinh"> Giới tính</label>
+                <input type="checkbox" name = "gioitinh" value="Nam">Nam
+                <input type="checkbox" name = "gioitinh" value="Nữ"> Nữ <br/><br/>
+
+            <label for="diachi">Địa chỉ:</label>
+                <input type="text" name = "diachi"> <br/><br/>
+
+            <label for="Lop">Lớp</label>
+                <select>
+                    <option>-Chọn lớp-</option>
+                    <option value="lopA">9</option>
+                    <option value="lopB">8</option>
+                </select> <br/><br/>
+
+            <label for="Email">Email</label>
+                <input type="text" name="Email"><br/><br/>
+
+            <label for="dienthoai">Điện thoại</label>
+                <input type="text" name="dienthoai"><br/><br/>
+            
+
+            <input type="button" value="Đăng Ký" onclick="alert('Done')">  
+            <input type="reset" value="Nhập lại">
+        </form>
+    </body>
+
+</html>
